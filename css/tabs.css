@@ -1,0 +1,10 @@
+.tabs__control {
+	display: flex;
+	justify-content: space-between;
+	width: 285px;
+	background: rgba(0, 0, 0, 0.7);
+	padding: 13px 21px;
+	font-weight: 700;
+	line-height: 140%;
+	margin-left: auto;
+}
