@@ -1,0 +1,10 @@
+.present {
+	padding-top: 37px;
+}
+
+.present__title {
+	font-family: 'IBM Plex Mono';
+	font-weight: 500;
+	font-size: 90px;
+	line-height: 120%;
+}
