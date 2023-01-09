@@ -4,7 +4,19 @@
 	width: 285px;
 	background: rgba(0, 0, 0, 0.7);
 	padding: 13px 21px;
-	font-weight: 700;
-	line-height: 140%;
 	margin-left: auto;
+}
+
+.tabs__btn {
+	background-color: transparent;
+	border: 0;
+	font-weight: 700;
+	line-height: 1;
+	color: #fff;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom 0.2s ease-in-out;
+}
+
+.tabs__btn-active {
+	border-color:#fff;
 }
