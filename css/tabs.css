@@ -15,10 +15,15 @@
 	line-height: 1;
 	color: #fff;
 	border-bottom: 2px solid transparent;
-	transition: border-bottom 0.2s ease-in-out;
+	transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	outline: 0;
 }
 
-.tabs__btn-active {
+.tabs__btn:hover {
+	color: #e0e0e0;
+}
+
+.tabs__btn-active, .tabs__btn:active, .tabs__btn:focus {
 	border-color:#fff;
 }
 
