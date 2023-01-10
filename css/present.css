@@ -26,6 +26,7 @@
 	background-position: center;
 	background-size: cover;
 	transition: background-image 0.2s ease-in-out;
+	outline: 0;
 }
 
 .present__btn:hover {
@@ -34,6 +35,10 @@
 
 .present__btn:active {
 	background-image: url('../img/btn-trailer-active.png');
+}
+
+.present__btn:focus {
+	background-image: url('../img/btn-trailer-focus.png');
 }
 
 .present__hero {
