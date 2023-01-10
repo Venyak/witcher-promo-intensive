@@ -25,6 +25,15 @@
 	border-radius: 2px;
 	background-position: center;
 	background-size: cover;
+	transition: background-image 0.2s ease-in-out;
+}
+
+.present__btn:hover {
+	background-image: url('../img/btn-trailer-hover.png');
+}
+
+.present__btn:active {
+	background-image: url('../img/btn-trailer-active.png');
 }
 
 .present__hero {
