@@ -40,3 +40,13 @@
 .nav__btn {
 	display: none;
 }
+
+@media (max-width: 750px) {
+	.nav__btn {
+		display: block;
+	}
+
+	.nav__list {
+		display: none;
+	}
+}
