@@ -28,6 +28,11 @@
 }
 
 .tabs__content {
+	display: none;
+	
+}
+
+.tabs__content-active {
 	display: flex;
 	justify-content: space-between;
 	gap: 30px;

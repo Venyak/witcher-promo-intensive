@@ -36,3 +36,7 @@
 .nav__link-kinopoisk {
 	background-image: url('../img/kinopoisk.svg');
 }
+
+.nav__btn {
+	display: none;
+}
