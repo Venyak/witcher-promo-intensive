@@ -42,7 +42,7 @@
 .merch__title {
 	font-weight: 400;
 	line-height: 120%;
-	font-size: 20px;
+	font-size: inherit;
 	margin-bottom: 5px;
 }
 
@@ -50,6 +50,10 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+
+@media (max-width: 1000px) {
+
 }
 
 @media (max-width: 850px) {
