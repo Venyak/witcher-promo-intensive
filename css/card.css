@@ -61,3 +61,17 @@
 		height: calc((100vw - 78px) / 5 * 4);
 	}
 }
+
+@media (max-width: 480px) { 
+	.card {
+		flex-basis: 100%;
+	}
+
+	.card-video__img {
+		height: calc((100vw - 30px) / 4 * 2);
+	}
+
+	.card-photo__img {
+		height: calc((100vw - 30px) / 5 * 4);
+	}
+}

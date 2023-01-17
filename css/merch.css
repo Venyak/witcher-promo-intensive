@@ -60,6 +60,12 @@
 
 @media (max-width: 750px) {
 	.merch__img {
-		height: calc((100vw - 78px) / 5 * 4);
+		height: calc((100vw - 78px) / 5 * 3);
+	}
+}
+
+@media (max-width: 480px) {
+	.merch__img {
+		height: calc((100vw - 30px) / 5 * 3);
 	}
 }
