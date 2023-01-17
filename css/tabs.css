@@ -27,13 +27,54 @@
 	border-color:#fff;
 }
 
-.tabs__content {
+.tabs__item {
 	display: none;
-	
 }
 
-.tabs__content-active {
+.tabs__item-active {
+	display: block;
+}
+
+.tabs__content {
 	display: flex;
 	justify-content: space-between;
 	gap: 30px;
+}
+
+@media (max-width: 1000px) { 
+	.tabs__control {
+		padding: 16px 38px;
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width: 850px) {  
+	.tabs__content {
+		flex-wrap: wrap;
+	}
+
+	.tabs__control {
+		padding: 16px 46px;
+		margin-bottom: 32px;
+	}
+
+	.tabs__content-video {
+		row-gap: 50px;
+	}
+
+	.tabs__content-photo {
+		row-gap: 30px;
+	}
+
+	.tabs__content-merch {
+		row-gap: 35px;
+	}
+}
+
+@media (max-width: 480px) { 
+	.tabs__control {
+		max-width: 220px;
+		padding: 10px 30px;
+		margin-bottom: 10px;
+	}
 }

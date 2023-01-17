@@ -51,3 +51,15 @@
 	justify-content: space-between;
 	align-items: center;
 }
+
+@media (max-width: 850px) {
+	.merch__img {
+		height: 180px;
+	}
+}
+
+@media (max-width: 750px) {
+	.merch__img {
+		height: calc((100vw - 78px) / 5 * 4);
+	}
+}

@@ -23,3 +23,41 @@
 .card-merch {
 	flex-basis: 285px;
 }	
+
+@media (max-width: 1000px) { 
+	.card-photo {
+		flex-basis: 210px;
+	}
+
+	.card-photo__img {
+		height: 180px;
+	}
+}
+
+@media (max-width: 850px) { 
+	.card {
+		flex-basis: 320px;
+	}
+
+	.card-video__img {
+		height: 180px;
+	}
+
+	.card-photo__img {
+		height: 270px;
+	}
+}
+
+@media (max-width: 750px) { 
+	.card {
+		flex-basis: 100%;
+	}
+
+	.card-video__img {
+		height: calc((100vw - 78px) / 4 * 2);
+	}
+
+	.card-photo__img {
+		height: calc((100vw - 78px) / 5 * 4);
+	}
+}
