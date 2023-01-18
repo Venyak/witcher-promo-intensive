@@ -10,5 +10,5 @@ tabs({
   selectorTabsBtn: '.tabs__btn',
   activeClassBtn: 'tabs__btn-active',
   selectorTabsItem: '.tabs__item',
-  activeClassTab: '.tabs__item-active',
+  activeClassTab: 'tabs__item-active',
 });

@@ -1,5 +1,5 @@
 const tabs = (param) => {
-  console.log('tabs');
+  const { selectorTabsBtn, activeClassBtn, selectorTabsItem, activeClassTab } = param;
 };
 
 export default tabs;
