@@ -58,7 +58,7 @@ iframe {
 
 .page {
 	position: relative;
- }
+}
  
 .page::before {
 	 content: '';
