@@ -10,7 +10,9 @@ const tabs = (param) => {
   const tabsBtns = document.querySelectorAll(selectorTabsBtn);
   const tabsItems = document.querySelectorAll(selectorTabsItem);
 
-  tabsBtns.forEach(() => {});
+  tabsBtns.forEach((btn, i) => {
+    console.log(btn, i);
+  });
 };
 
 export default tabs;
