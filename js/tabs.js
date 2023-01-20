@@ -16,6 +16,7 @@ const tabs = (param) => {
         if (tabsBtns[i] === btn) {
           tabsBtns[i].classList.add(activeClassBtn);
           tabsItems[i].classList.add(activeClassTab);
+          callback(i);
         } else {
           tabsBtns[i].classList.remove(activeClassBtn);
           tabsItems[i].classList.remove(activeClassTab);
